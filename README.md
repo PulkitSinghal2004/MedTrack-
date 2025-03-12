@@ -2,6 +2,8 @@
 
 This project, "medTrack," is a React Native application built with Expo, designed to provide users with a robust platform for managing their medical information. It integrates Firebase for authentication and database management, offering a seamless and secure experience.
 
+## APK link :- [https://appdistribution.firebase.google.com/pub/i/b69e6fc64908c20a]
+
 ## Features
 
 * **Create React Native App with Expo:** Leverages the power of Expo for rapid development and cross-platform compatibility.
