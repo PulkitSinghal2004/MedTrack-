@@ -32,7 +32,7 @@ Follow these steps to get your local development environment set up:
 1.  **Clone the repository:**
 
     ```bash
-    git clone [repository URL]
+    git clone [https://github.com/PulkitSinghal2004/MedTrack-.git]
     cd medTrack
     ```
 
@@ -46,33 +46,8 @@ Follow these steps to get your local development environment set up:
 
     * Create a Firebase project on the Firebase console.
     * Enable Authentication (Email/Password) and Realtime Database or Firestore.
-    * Create a `firebaseConfig.js` file in your project's root directory with your Firebase configuration:
-
-        ```javascript
-        // firebaseConfig.js
-        import { initializeApp } from 'firebase/app';
-        import { getAuth } from 'firebase/auth';
-        import { getFirestore } from 'firebase/firestore'; // or getDatabase if using realtime database.
-
-        const firebaseConfig = {
-          apiKey: "YOUR_API_KEY",
-          authDomain: "YOUR_AUTH_DOMAIN",
-          projectId: "YOUR_PROJECT_ID",
-          storageBucket: "YOUR_STORAGE_BUCKET",
-          messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-          appId: "YOUR_APP_ID",
-          measurementId: "YOUR_MEASUREMENT_ID"
-        };
-
-        const app = initializeApp(firebaseConfig);
-        const auth = getAuth(app);
-        const db = getFirestore(app); // or getDatabase(app);
-
-        export { auth, db };
-        ```
-
-    * Replace the placeholder values with your Firebase project's credentials.
-
+   
+       
 4.  **Run the app:**
 
     ```bash
@@ -82,4 +57,4 @@ Follow these steps to get your local development environment set up:
     * This will open the Expo DevTools in your browser.
     * You can then run the app on an emulator or physical device.
 
-### Project Structure
+
